@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+.vercel
+# 気象庁の強震波形は第三者提供禁止のため同梱しない(pnpm fetch:jma で各自取得)
+tests/fixtures/jma/*.csv
+.gstack/
